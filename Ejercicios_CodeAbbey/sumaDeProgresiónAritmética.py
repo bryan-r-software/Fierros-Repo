@@ -5,7 +5,7 @@ for i in range(ans_num):
     start, increment, cicles = map(int, input().split())
     mini_result = start
     
-    for j in range(cicles-1):
+    for j in range(1,cicles):
         start += increment
         mini_result += start
         
